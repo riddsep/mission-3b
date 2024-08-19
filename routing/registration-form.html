@@ -11,19 +11,19 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/login-form.css" />
+    <link rel="stylesheet" href="styles/registration-form.css" />
   </head>
   <body>
     <main>
-      <div class="login-container">
+      <div class="register-container">
         <div class="logo">
-          <img src="assets//icons/chill-logo.png" alt="" />
+          <img src="../assets/icons/chill-logo.png" alt="" />
         </div>
-        <div class="login-header">
-          <h1>Masuk</h1>
-          <p>Selamat datang kembali!</p>
+        <div class="register-header">
+          <h1>Daftar</h1>
+          <p>Selamat datang!</p>
         </div>
-        <form class="login-form">
+        <form class="register-form">
           <label for="username">Username</label>
           <input
             type="email"
@@ -31,7 +31,7 @@
             id="username"
             placeholder="Masukkan username"
           />
-          <label for="password">Kata Sandi</label>
+          <label for="password">Kata Sandi </label>
           <input
             type="password"
             name="username"
@@ -39,23 +39,33 @@
             placeholder="Masukkan kata sandi"
           />
           <span
-            ><img class="hide-btn" src="assets/icons/hide.png" alt=""
+            ><img class="hide-btn" src="../assets/icons/hide.png" alt=""
+          /></span>
+          <label for="password">Konfirmasi Kata Sandi</label>
+          <input
+            type="password"
+            name="username"
+            id="confirm-password"
+            placeholder="Masukkan kata sandi"
+          />
+          <span
+            ><img class="hide-btn" src="../assets/icons/hide.png" alt=""
           /></span>
         </form>
-        <div class="registration-cta">
+        <div class="login-cta">
           <p class="register">
-            Belum punya akun? <a href="registration-form.html">Daftar</a>
+            Sudah punya akun? <a href="login-form.html">Login</a>
           </p>
           <p class="forget-password"><a href="">Lupa kata sandi?</a></p>
         </div>
-        <div class="btn-login">
-          <button class="btn-masuk">Masuk</button>
+        <div class="btn-register">
+          <button class="btn-daftar">Daftar</button>
           <p>Atau</p>
           <button class="btn-google">
             <span
-              ><img class="google-icon" src="assets/icons/google.png" alt=""
+              ><img class="google-icon" src="../assets/icons/google.png" alt=""
             /></span>
-            Masuk dengan Google
+            Daftar dengan Google
           </button>
         </div>
       </div>
