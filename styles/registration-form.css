@@ -17,7 +17,7 @@ main {
   align-items: center;
 }
 
-.login-container {
+.register-container {
   color: #ffffff;
   flex: 1;
   display: flex;
@@ -40,7 +40,7 @@ main {
   }
 }
 
-.login-header {
+.register-header {
   text-align: center;
   margin-bottom: 37px;
 
@@ -55,7 +55,7 @@ main {
   }
 }
 
-.login-form {
+.register-form {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -85,6 +85,10 @@ main {
   }
 
   #password {
+    margin-bottom: 37px;
+    font-size: 1rem;
+  }
+  #confirm-password {
     margin-bottom: 8px;
     font-size: 1rem;
   }
@@ -98,7 +102,7 @@ main {
   }
 }
 
-.registration-cta {
+.login-cta {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -117,7 +121,7 @@ main {
   }
 }
 
-.btn-login {
+.btn-register {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -131,7 +135,7 @@ main {
     border: 1px solid #e7e3fc3b;
   }
 
-  .btn-masuk {
+  .btn-daftar {
     font-size: 1rem;
     background-color: #3d4142;
     cursor: pointer;
@@ -164,7 +168,7 @@ main {
     font-family: Lato;
   }
 
-  .login-container {
+  .register-container {
     width: 100%;
     padding: 24px;
     border-radius: 8px;
@@ -179,30 +183,31 @@ main {
     }
   }
 
-  .login-header {
+  .register-header {
     text-align: center;
     margin-bottom: 20px;
 
     h1 {
-      font-size: 18px;
+      font-size: 20px;
       font-weight: 400;
     }
     p {
-      font-size: 10px;
+      font-size: 12px;
     }
   }
 
-  .login-form {
+  .register-form {
     label {
-      font-size: 10px;
+      font-size: 12px;
       margin-bottom: 6px;
     }
 
     input {
       border-radius: 8px;
+      padding: 8px 11.5px;
     }
     input::placeholder {
-      font-size: 12px;
+      font-size: 10px;
     }
 
     .hide-btn {
@@ -221,24 +226,24 @@ main {
       font-size: 1rem;
     }
   }
-  .registration-cta {
+  .login-cta {
     margin-bottom: 20px;
 
     p {
-      font-size: 10px;
+      font-size: 12px;
     }
   }
 
-  .btn-login {
+  .btn-register {
     p {
-      font-size: 10px;
+      font-size: 12px;
     }
-    .btn-masuk {
-      font-size: 10px;
+    .btn-daftar {
+      font-size: 12px;
       font-weight: 600;
     }
     .btn-google {
-      font-size: 10px;
+      font-size: 12px;
       font-weight: 600;
     }
   }
