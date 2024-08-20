@@ -401,6 +401,8 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
       }
     }
 
@@ -431,6 +433,8 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
       }
     }
 
@@ -464,5 +468,41 @@ header {
       top: 155px;
       right: -22px;
     }
+  }
+}
+
+footer {
+  padding: 40px 80px;
+  background-color: rgb(24, 26, 28);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+
+  .foot-logo {
+    height: 44px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .genre {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 28px;
+    color: #c1c2c4;
+  }
+  .bantuan {
+    .col {
+      color: #c1c2c4;
+    }
+  }
+  .header {
+    margin-bottom: 15px;
+  }
+  .col p {
+    margin-bottom: 13px;
   }
 }
