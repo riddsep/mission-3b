@@ -134,14 +134,16 @@ header {
   .film-list {
     display: flex;
     justify-content: space-between;
+    gap: 1.5rem;
     position: relative;
 
     .continue-preview {
-      width: 302px;
+      flex: 1;
       height: 162px;
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
+      border-radius: 8px;
 
       p {
         color: #ffffff;
@@ -200,11 +202,12 @@ header {
     display: flex;
     justify-content: space-between;
     position: relative;
+    gap: 1.75rem;
 
     .top-rating-preview {
-      width: 234px;
+      border-radius: 8px;
+      flex: 1;
       height: 365px;
-
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
@@ -293,11 +296,12 @@ header {
     display: flex;
     justify-content: space-between;
     position: relative;
+    gap: 1.75rem;
 
     .trending-preview {
-      width: 234px;
+      flex: 1;
       height: 365px;
-
+      border-radius: 8px;
       display: flex;
       justify-content: flex-end;
       align-items: flex-start;
@@ -371,10 +375,12 @@ header {
     display: flex;
     justify-content: space-between;
     position: relative;
+    gap: 1.75rem;
 
     .new-release-preview {
-      width: 234px;
+      flex: 1;
       height: 365px;
+      border-radius: 8px;
 
       display: flex;
       align-items: flex-start;
