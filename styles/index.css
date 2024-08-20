@@ -119,3 +119,140 @@ header {
     }
   }
 }
+
+.continue-section {
+  padding: 40px 80px;
+  background-color: rgb(24, 26, 28);
+
+  h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+
+  .film-list {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    .continue-preview {
+      width: 302px;
+      height: 162px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      p {
+        color: #ffffff;
+        margin: 16px;
+      }
+    }
+
+    .film-1 {
+      background: url("../assets/continue-list/film-1.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .film-2 {
+      background: url("../assets/continue-list/film-2.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .film-3 {
+      background: url("../assets/continue-list/film-3.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .film-4 {
+      background: url("../assets/continue-list/film-4.png");
+      background-size: cover;
+      background-position: center;
+    }
+    .left-slide {
+      position: absolute;
+      top: 60px;
+      left: -22px;
+    }
+    .right-slide {
+      position: absolute;
+      top: 60px;
+      right: -22px;
+    }
+  }
+}
+
+.top-rating-section {
+  padding: 40px 80px;
+  background-color: rgb(24, 26, 28);
+
+  h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+
+  .top-rating-list {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    .top-rating-preview {
+      width: 234px;
+      height: 365px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      p {
+        color: #ffffff;
+        margin: 16px;
+      }
+    }
+
+    .film-1 {
+      background: url("../assets/top-rating/film-1.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .film-2 {
+      background: url("../assets/top-rating/film-2.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .film-3 {
+      background: url("../assets/top-rating/film-3.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .film-4 {
+      background: url("../assets/top-rating/film-4.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .film-5 {
+      background: url("../assets/top-rating/film-5.png");
+      background-size: cover;
+      background-position: center;
+    }
+    .left-slide {
+      position: absolute;
+      top: 155px;
+      left: -22px;
+    }
+    .right-slide {
+      position: absolute;
+      top: 155px;
+      right: -22px;
+    }
+  }
+}
