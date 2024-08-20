@@ -18,24 +18,32 @@
       <nav>
         <div class="left-section">
           <img src="./assets/icons/chill-logo.png" alt="" />
-          <a href="routing/login-form.html">Series</a>
-          <a href="routing/registration-form.html">Film</a>
-          <a href="">Daftar Saya</a>
+          <a href="#">Series</a>
+          <a href="#continue-section">Film</a>
+          <a href="#">Daftar Saya</a>
         </div>
         <div class="right-section">
           <img src="assets/icons/profile-picture.png" alt="" />
-          <svg
-            width="14"
-            height="9"
-            viewBox="0 0 14 9"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.645 0.0214844L7 5.36482L12.355 0.0214844L14 1.66648L7 8.66648L0 1.66648L1.645 0.0214844Z"
-              fill="white"
-            />
-          </svg>
+          <div class="dropdown">
+            <svg
+              class="btn-drop"
+              width="14"
+              height="9"
+              viewBox="0 0 14 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.645 0.0214844L7 5.36482L12.355 0.0214844L14 1.66648L7 8.66648L0 1.66648L1.645 0.0214844Z"
+                fill="white"
+              />
+            </svg>
+            <ul class="dropdown-list">
+              <li>Profile Saya</li>
+              <li>Ubah Premium</li>
+              <li>Keluar</li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
@@ -98,7 +106,7 @@
         </div>
       </section>
 
-      <section class="continue-section">
+      <section id="continue-section" class="continue-section">
         <h1>Melajutkan Tonton Film</h1>
 
         <div class="film-list">
