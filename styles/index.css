@@ -154,8 +154,10 @@ header {
     .btn-audio {
       background-color: transparent;
       border: 1px solid #ffffff;
-      padding: 10px 12px;
-      border-radius: 24px;
+      padding: 12px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
     }
   }
 }
@@ -246,7 +248,8 @@ header {
 
     .top-rating-preview {
       border-radius: 8px;
-      flex: 1;
+      flex: 1 0 auto;
+      width: 234px;
       height: 365px;
       display: flex;
       align-items: flex-start;
@@ -339,7 +342,8 @@ header {
     gap: 1.75rem;
 
     .trending-preview {
-      flex: 1;
+      flex: 1 0 auto;
+      width: 234px;
       height: 365px;
       border-radius: 8px;
       display: flex;
@@ -418,7 +422,8 @@ header {
     gap: 1.75rem;
 
     .new-release-preview {
-      flex: 1;
+      flex: 1 0 auto;
+      width: 234px;
       height: 365px;
       border-radius: 8px;
 

@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   header {
     nav {
       margin: 0 24px;
@@ -66,6 +66,9 @@
           }
         }
       }
+      .btn-audio {
+        padding: 6px;
+      }
     }
   }
   .continue-section {
@@ -73,6 +76,7 @@
 
     h1 {
       font-size: 20px;
+      margin-bottom: 20px;
     }
 
     .film-list {
@@ -91,6 +95,124 @@
       .right-slide {
         display: none;
       }
+    }
+  }
+
+  .top-rating-section {
+    padding: 24px;
+
+    h1 {
+      font-size: 1.25rem;
+      margin-bottom: 20px;
+    }
+
+    .top-rating-list {
+      gap: 1rem;
+      overflow-x: auto;
+
+      .top-rating-preview {
+        width: 130px;
+        height: 200px;
+      }
+
+      .film-1 {
+        p {
+          font-size: 8px;
+          padding: 4.78px;
+          margin: 8px;
+        }
+      }
+      .film-4 {
+        p {
+          font-size: 8px;
+          padding: 4.78px;
+          margin: 8px;
+        }
+      }
+      .film-5 {
+        p {
+          font-size: 8px;
+          border-top-right-radius: 4px;
+          border-bottom-left-radius: 4px;
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .left-slide,
+    .right-slide {
+      display: none;
+    }
+  }
+  .trending-section {
+    padding: 24px;
+
+    h1 {
+      font-size: 1.25rem;
+      margin-bottom: 20px;
+    }
+
+    .trending-list {
+      gap: 1rem;
+      overflow-x: auto;
+
+      .trending-preview {
+        width: 130px;
+        height: 200px;
+      }
+    }
+    .film-1,
+    .film-2,
+    .film-3,
+    .film-4,
+    .film-5 {
+      p {
+        margin-right: 10px;
+        font-size: 8px;
+      }
+    }
+
+    .left-slide,
+    .right-slide {
+      display: none;
+    }
+  }
+
+  .new-release-section {
+    padding: 24px;
+
+    h1 {
+      font-size: 1.25rem;
+      margin-bottom: 20px;
+    }
+
+    .new-release-list {
+      gap: 1rem;
+      overflow-x: auto;
+
+      .new-release-preview {
+        width: 130px;
+        height: 200px;
+      }
+      .film-1,
+      .film-3 {
+        p {
+          font-size: 8px;
+          margin-right: 10px;
+        }
+      }
+      .film-2,
+      .film-4 {
+        p {
+          font-size: 8px;
+          margin: 6px;
+        }
+      }
+    }
+
+    .left-slide,
+    .right-slide {
+      display: none;
     }
   }
 }
