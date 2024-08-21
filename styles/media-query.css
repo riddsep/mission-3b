@@ -1,0 +1,96 @@
+@media screen and (max-width: 480px) {
+  header {
+    nav {
+      margin: 0 24px;
+      .left-section {
+        flex: 1;
+        .large-logo {
+          display: none;
+        }
+        .small-logo {
+          display: block;
+        }
+        a {
+          font-size: 14px;
+        }
+      }
+      .right-section {
+        width: 40px;
+        flex: 0.5;
+      }
+    }
+  }
+  .hero-section {
+    height: 225px;
+
+    .hero-info {
+      padding: 24px;
+
+      .hero-preview {
+        max-width: 100%;
+        margin-bottom: 12px;
+        h1 {
+          font-size: 1.5rem;
+          margin-bottom: 12px;
+        }
+        p {
+          font-size: 12px;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+
+      .btn-preview {
+        .btn-left {
+          .btn-mulai {
+            padding: 4px 12px;
+            font-size: 12px;
+          }
+
+          .btn-selengkapnya {
+            padding: 4px 12px;
+            font-size: 12px;
+          }
+
+          button::last-of-type {
+            padding: 4px;
+            font-size: 12px;
+          }
+
+          .btn-audio {
+            width: 14px;
+            padding: 6px;
+          }
+        }
+      }
+    }
+  }
+  .continue-section {
+    padding: 24px;
+
+    h1 {
+      font-size: 20px;
+    }
+
+    .film-list {
+      overflow-x: auto;
+      gap: 1rem;
+      .continue-preview {
+        p {
+          font-size: 14px;
+        }
+      }
+      .continue-preview {
+        width: 90%;
+      }
+
+      .left-slide,
+      .right-slide {
+        display: none;
+      }
+    }
+  }
+}

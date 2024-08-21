@@ -38,6 +38,9 @@ header {
         font-size: 1.125em;
         text-decoration: none;
       }
+      .small-logo {
+        display: none;
+      }
     }
 
     .right-section {
@@ -150,7 +153,9 @@ header {
 
     .btn-audio {
       background-color: transparent;
-      border: none;
+      border: 1px solid #ffffff;
+      padding: 10px 12px;
+      border-radius: 24px;
     }
   }
 }
@@ -173,7 +178,7 @@ header {
     position: relative;
 
     .continue-preview {
-      flex: 1;
+      flex: 1 0 auto;
       height: 162px;
       display: flex;
       justify-content: space-between;
