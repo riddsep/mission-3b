@@ -525,10 +525,8 @@ footer {
   color: #ffffff;
 
   .foot-logo {
-    height: 44px;
-
     img {
-      height: 100%;
+      height: 44px;
     }
   }
 

@@ -37,6 +37,7 @@
           font-size: 12px;
           display: -webkit-box;
           -webkit-line-clamp: 2;
+          line-clamp: 2;
           -webkit-box-orient: vertical;
           overflow: hidden;
           text-overflow: ellipsis;
@@ -213,6 +214,36 @@
     .left-slide,
     .right-slide {
       display: none;
+    }
+  }
+  footer {
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px;
+
+    .foot-logo {
+      width: 100%;
+      margin-bottom: 40px;
+      img {
+        height: 24.75px;
+        margin-bottom: 1rem;
+      }
+    }
+
+    .genre-container {
+      flex-direction: column;
+      width: 100%;
+
+      .genre {
+        display: none;
+      }
+    }
+    .bantuan {
+      width: 100%;
+
+      .col {
+        display: none;
+      }
     }
   }
 }
