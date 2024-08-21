@@ -176,11 +176,11 @@ header {
   .film-list {
     display: flex;
     justify-content: space-between;
-    gap: 1.5rem;
     position: relative;
 
     .continue-preview {
       flex: 1 0 auto;
+      width: 302px;
       height: 162px;
       display: flex;
       justify-content: space-between;
@@ -193,6 +193,13 @@ header {
       }
     }
 
+    .list-scroll {
+      display: flex;
+      width: 100%;
+      gap: 1.75rem;
+      overflow-x: scroll;
+    }
+
     .film-1 {
       background: url("../assets/continue-list/film-1.png");
       background-size: cover;
@@ -200,19 +207,29 @@ header {
     }
 
     .film-2 {
-      background: url("../assets/continue-list/film-2.png");
+      background: url("../assets/continue-list/film-4.png");
       background-size: cover;
       background-position: center;
     }
 
     .film-3 {
-      background: url("../assets/continue-list/film-3.png");
+      background: url("../assets/continue-list/film-5.png");
       background-size: cover;
       background-position: center;
     }
 
     .film-4 {
-      background: url("../assets/continue-list/film-4.png");
+      background: url("../assets/continue-list/film-6.png");
+      background-size: cover;
+      background-position: center;
+    }
+    .film-5 {
+      background: url("../assets/continue-list/film-3.png");
+      background-size: cover;
+      background-position: center;
+    }
+    .film-6 {
+      background: url("../assets/continue-list/film-2.png");
       background-size: cover;
       background-position: center;
     }
@@ -244,7 +261,13 @@ header {
     display: flex;
     justify-content: space-between;
     position: relative;
-    gap: 1.75rem;
+
+    .list-scroll {
+      display: flex;
+      width: 100%;
+      gap: 1.75rem;
+      overflow-x: scroll;
+    }
 
     .top-rating-preview {
       border-radius: 8px;
@@ -271,13 +294,13 @@ header {
     }
 
     .film-2 {
-      background: url("../assets/top-rating/film-2.png");
+      background: url("../assets/top-rating/film-9.png");
       background-size: cover;
       background-position: center;
     }
 
     .film-3 {
-      background: url("../assets/top-rating/film-3.png");
+      background: url("../assets/top-rating/film-6.png");
       background-size: cover;
       background-position: center;
     }
@@ -309,6 +332,80 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+      }
+    }
+    .film-6 {
+      background: url("../assets/top-rating/film-3.png");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: end;
+
+      p {
+        background-color: #b71f1d;
+        color: #ffffff;
+        margin-right: 34px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+      }
+    }
+    .film-7 {
+      background: url("../assets/top-rating/film-7.png");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: end;
+
+      p {
+        background-color: #b71f1d;
+        color: #ffffff;
+        margin-right: 34px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+      }
+    }
+    .film-8 {
+      background: url("../assets/top-rating/film-8.png");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: end;
+
+      p {
+        background-color: #b71f1d;
+        color: #ffffff;
+        margin-right: 34px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+      }
+    }
+    .film-9 {
+      background: url("../assets/top-rating/film-2.png");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: end;
+
+      p {
+        background-color: #b71f1d;
+        color: #ffffff;
+        margin-right: 34px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
       }
     }
     .left-slide {
@@ -361,6 +458,12 @@ header {
         border-bottom-left-radius: 4px;
       }
     }
+    .list-scroll {
+      display: flex;
+      width: 100%;
+      gap: 1.75rem;
+      overflow-x: scroll;
+    }
 
     .film-1 {
       background: url("../assets/trending/film-1.png");
@@ -388,6 +491,26 @@ header {
 
     .film-5 {
       background: url("../assets/trending/film-5.png");
+      background-size: cover;
+      background-position: center;
+    }
+    .film-6 {
+      background: url("../assets/top-rating/film-6.png");
+      background-size: cover;
+      background-position: center;
+    }
+    .film-7 {
+      background: url("../assets/top-rating/film-7.png");
+      background-size: cover;
+      background-position: center;
+    }
+    .film-8 {
+      background: url("../assets/top-rating/film-8.png");
+      background-size: cover;
+      background-position: center;
+    }
+    .film-9 {
+      background: url("../assets/top-rating/film-9.png");
       background-size: cover;
       background-position: center;
     }
@@ -430,6 +553,13 @@ header {
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
+    }
+
+    .list-scroll {
+      display: flex;
+      width: 100%;
+      gap: 1.75rem;
+      overflow-x: scroll;
     }
 
     .film-1 {
@@ -502,6 +632,42 @@ header {
       background-position: center;
       display: flex;
       justify-content: end;
+    }
+    .film-6 {
+      background: url("../assets/top-rating/film-6.png");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: end;
+
+      p {
+        background-color: #b71f1d;
+        color: #ffffff;
+        margin-right: 34px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+      }
+    }
+    .film-7 {
+      background: url("../assets/top-rating/film-7.png");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: end;
+
+      p {
+        background-color: #b71f1d;
+        color: #ffffff;
+        margin-right: 34px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+      }
     }
     .left-slide {
       position: absolute;

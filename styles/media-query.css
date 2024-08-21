@@ -88,10 +88,9 @@
           font-size: 14px;
         }
       }
-      .continue-preview {
-        width: 90%;
+      .list-scroll {
+        gap: 1rem;
       }
-
       .left-slide,
       .right-slide {
         display: none;
@@ -112,8 +111,11 @@
       overflow-x: auto;
 
       .top-rating-preview {
-        width: 130px;
-        height: 200px;
+        width: 95px;
+        height: 145px;
+      }
+      .list-scroll {
+        gap: 1rem;
       }
 
       .film-1 {
@@ -131,6 +133,38 @@
         }
       }
       .film-5 {
+        p {
+          font-size: 8px;
+          border-top-right-radius: 4px;
+          border-bottom-left-radius: 4px;
+          margin-right: 10px;
+        }
+      }
+      .film-6 {
+        p {
+          font-size: 8px;
+          border-top-right-radius: 4px;
+          border-bottom-left-radius: 4px;
+          margin-right: 10px;
+        }
+      }
+      .film-7 {
+        p {
+          font-size: 8px;
+          border-top-right-radius: 4px;
+          border-bottom-left-radius: 4px;
+          margin-right: 10px;
+        }
+      }
+      .film-8 {
+        p {
+          font-size: 8px;
+          border-top-right-radius: 4px;
+          border-bottom-left-radius: 4px;
+          margin-right: 10px;
+        }
+      }
+      .film-9 {
         p {
           font-size: 8px;
           border-top-right-radius: 4px;
@@ -158,15 +192,22 @@
       overflow-x: auto;
 
       .trending-preview {
-        width: 130px;
-        height: 200px;
+        width: 95px;
+        height: 145px;
+      }
+      .list-scroll {
+        gap: 1rem;
       }
     }
     .film-1,
     .film-2,
     .film-3,
     .film-4,
-    .film-5 {
+    .film-5,
+    .film-6,
+    .film-7,
+    .film-8,
+    .film-9 {
       p {
         margin-right: 10px;
         font-size: 8px;
@@ -188,12 +229,14 @@
     }
 
     .new-release-list {
-      gap: 1rem;
       overflow-x: auto;
 
       .new-release-preview {
-        width: 130px;
-        height: 200px;
+        width: 95px;
+        height: 145px;
+      }
+      .list-scroll {
+        gap: 1rem;
       }
       .film-1,
       .film-3 {
